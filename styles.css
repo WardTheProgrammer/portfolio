@@ -168,18 +168,19 @@ div.project > h4 {
 }
 
 .button {
-    list-style-type: none;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
     width: 20%;
     height: 5vh;
     padding: 5px;
     background-color: #EFEFEF;
     color: #414141;
-    border: 2px solid black;
 }
   
 .button:hover {
     background-color: #414141;
     color: #EFEFEF;
-    z-index: 1;
     border: 2px solid #EFEFEF;
 }
