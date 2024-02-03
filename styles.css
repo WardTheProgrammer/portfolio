@@ -144,6 +144,7 @@ div.project {
 }
 
 div.project > a {
+    display: contents;
     text-decoration: none;
 }
     
