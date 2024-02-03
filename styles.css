@@ -168,13 +168,12 @@ div.project > h4 {
 }
 
 .button {
-    line-height: 5vh;
     font-size: 24px;
     text-align: center;
     text-decoration: none;
     width: 20%;
-    height: 5vh;
-    padding: 5px;
+    height: 3vh;
+    padding: 10px;
     background-color: #EFEFEF;
     color: #414141;
 }
