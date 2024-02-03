@@ -144,9 +144,11 @@ div.project {
 }
 
 div.project > a {
+    width: 100%;
     color: #EFEFEF;
     text-align: center;
     font-size: 32px;
+    padding: 5% 0;
     text-decoration: none;
 }
     
@@ -154,14 +156,6 @@ div.project > a > img {
     max-width:  100%;
     max-height: auto;
     margin: 0;
-}
-
-div.project > h4 {
-    width: 100%;
-    color: #EFEFEF;
-    text-align: center;
-    font-size: 32px;
-    padding: 5% 0;
 }
 
 #footer-section {
