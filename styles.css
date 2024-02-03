@@ -143,6 +143,10 @@ div.project {
     background-image: linear-gradient(45deg, #414141 0%, #212121 100%);
 }
 
+div.project > a {
+    text-decoration: none;
+}
+    
 div.project > a > img {
     max-width:  100%;
     max-height: auto;
@@ -155,7 +159,6 @@ div.project > h4 {
     text-align: center;
     font-size: 32px;
     padding: 5% 0;
-    text-decoration: none;
 }
 
 #footer-section {
