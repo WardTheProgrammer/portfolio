@@ -166,21 +166,3 @@ div.project > h4 {
     height: 10vh;
     border-bottom: 1px solid #bbb;
 }
-
-.button {
-    line-height: 3vh;
-    font-size: 24px;
-    text-align: center;
-    text-decoration: none;
-    width: 20%;
-    height: 3vh;
-    padding: 10px;
-    background-color: #EFEFEF;
-    color: #414141;
-}
-  
-.button:hover {
-    background-color: #414141;
-    color: #EFEFEF;
-    border: 2px solid #EFEFEF;
-}
