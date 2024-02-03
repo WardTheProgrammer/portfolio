@@ -168,6 +168,7 @@ div.project > h4 {
 }
 
 .button {
+    line-height: 5vh;
     font-size: 24px;
     text-align: center;
     text-decoration: none;
