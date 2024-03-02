@@ -123,6 +123,15 @@ div.image > a > img {
     background-color: #0093E9;
 }
 
+#courses-section > p{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    color: #EFEFEF;
+    margin-bottom: 36px;
+}
+
 h3 {
     padding: 5%;
     color: #EFEFEF;
