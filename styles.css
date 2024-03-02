@@ -25,21 +25,18 @@ li {
 
 li > a {
     display: block;
-    color: white;
+    color: #bbb;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 li a:hover {
-    background-color: #111;
+    animation: link ease-in-out 0.5s forwards;
 }
 
-.footer {
+.footer-link {
     float: right;
-}
-  
-li:last-child {
     border-right: none;
     border-left: 1px solid #bbb;
 }
@@ -118,17 +115,22 @@ div.image > a > img {
 #projects-section {
     width: 100%;
     background-color: #0093E9;
-    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    background-image: linear-gradient(70deg, #0093E9 30%, #80D0C7 100%);
 }
 
-#projects-section > h3 {
+#courses-section {
+    width: 100%;
+    background-color: #0093E9;
+}
+
+h3 {
     padding: 5%;
     color: #EFEFEF;
     font-size: 48px;
     text-align: center;
 }
 
-div.row {
+div.projects {
     padding-bottom: 5%;
     display: flex;
     flex-wrap: wrap;
@@ -137,6 +139,7 @@ div.row {
 }
 
 div.project {
+    margin-bottom: 10%;
     width: 25%;
     height: 60vh;
     border: 5px solid #212121;
@@ -144,7 +147,16 @@ div.project {
     background-image: linear-gradient(45deg, #414141 0%, #212121 100%);
 }
 
+h5 {
+    font-size: 20px;
+}
+
+div.project:hover {
+    transform: scale(1.1);
+}
+
 div.project > a {
+    display: block;
     width: 100%;
     color: #EFEFEF;
     text-align: center;
@@ -154,9 +166,10 @@ div.project > a {
 }
     
 div.project > a > img {
-    max-width:  100%;
-    max-height: auto;
-    margin: 0;
+    display: block;
+    height: 45vh;
+    width: auto;
+    margin:  10px auto;
 }
 
 #footer-section {
@@ -186,5 +199,14 @@ div.project > a > img {
     div.image {
         width: 30%;
         height: auto;
+    }
+}
+
+@keyframes link {
+    0% {
+        background-color: #414141;
+    }
+    100% {
+        background-color: #212121;
     }
 }
