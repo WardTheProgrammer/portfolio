@@ -99,6 +99,10 @@ div.text > p {
     text-align: center;
 }
 
+div.text > p > a {
+    color: #EFEFEF;  
+}
+
 div.image {
     width: 35%;
     height: 50%;
